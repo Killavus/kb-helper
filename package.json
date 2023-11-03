@@ -1,0 +1,36 @@
+{
+  "name": "kb-helper",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Marcin Grzywaczewski <marcin.grzywaczewski@callstack.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@callstack/eslint-config": "^13.0.2",
+    "@tsconfig/node-lts": "^18.12.5",
+    "@types/bunyan": "^1.8.9",
+    "@types/node": "^20.6.3",
+    "@types/yargs": "^17.0.28",
+    "eslint": "^8.49.0",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "eslintConfig": {
+    "extends": "@callstack/eslint-config/node"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "@types/lodash": "^4.14.200",
+    "@whatwg-node/fetch": "^0.9.13",
+    "bunyan": "^1.8.15",
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "open": "^9.1.0",
+    "yargs": "^17.7.2"
+  }
+}
